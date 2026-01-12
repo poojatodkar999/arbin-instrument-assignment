@@ -1,0 +1,6 @@
+@ArbinInstruments_HostAddress = http://localhost:5047
+
+GET {{ArbinInstruments_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
