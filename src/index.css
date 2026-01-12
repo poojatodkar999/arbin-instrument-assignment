@@ -1,0 +1,63 @@
+:root {
+  /* Light Theme - White/Blue */
+  --color-bg-dark: #f0f9ff;
+  /* Lightest Blue/White */
+  --color-bg-card: #ffffff;
+  --color-text-primary: #1e293b;
+  /* Slate 800 */
+  --color-text-secondary: #64748b;
+  /* Slate 500 */
+
+  --color-primary: #3b82f6;
+  /* Blue 500 */
+  --color-primary-hover: #2563eb;
+  /* Blue 600 */
+
+  --color-status-operational: #10b981;
+  /* Emerald 500 */
+  --color-status-maintenance: #ef4444;
+  /* Red 500 */
+
+  --color-border: #e2e8f0;
+  /* Slate 200 */
+
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* Utilities for light mode overlays */
+  --bg-overlap: rgba(0, 0, 0, 0.04);
+  --bg-overlap-hover: rgba(59, 130, 246, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
