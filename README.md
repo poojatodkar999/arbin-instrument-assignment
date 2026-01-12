@@ -75,8 +75,8 @@ VITE_API_BASE_URL=https://localhost:7269/
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repository-url>
-cd arbin-instrument
+git clone https://github.com/poojatodkar999/arbin-instrument-assignment
+cd arbin-instrument-assignment
 npm install
 ```
 
